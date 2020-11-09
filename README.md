@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the basic skeltal structure of the page. Using semantic html is similar to naming the bones of a body. Sure you could call them all a bone (<div>) but it will help others identify the significance of it when you use more semantic names; skull (<header>), rib (<main>), arm (<section>), etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block takes up the entire width of the page, allowing only one element on the line.
+Display inline will take up the space it needs, allowing multiple elements on the same line if there is enough room.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are; content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items: center; works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable for teams of developers because it allows each team member to work on their own branch of the project without effecting the main repo. All changes can be reviewed and pushed to the main repo. If there is a reason to revert to an older version, git allows for that.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
