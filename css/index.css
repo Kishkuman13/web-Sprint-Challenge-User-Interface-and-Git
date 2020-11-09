@@ -144,3 +144,134 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    margin: 2% 1%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.navimg {
+    background-image: url(/img/lambda-black.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 145px;
+}
+nav a {
+    width: 15%;
+    margin:0 auto;
+    padding-left: 4%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: .9em;
+}
+.heroimg {
+    background-image: url(/img/jumbo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    margin: 5% auto 3%;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/* About Page CSS */
+
+
+.heroimgabt {
+    background-image: url(/img/jumbo-about.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    margin: 5% auto 3%;
+}
+
+.top-cont .text-contain {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.text-contain {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.middle-cont h2 {
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+.middle-cont p {
+    padding-bottom: 10px;
+}
+.middle-cont {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text-cont img {
+    width: 100%;
+}
+.middle-cont .text-cont {
+    width: 45%;
+    padding-bottom: 20px;  
+    margin-bottom: 60px;
+    border-bottom: 1px dashed black;
+
+}
+.middle-cont h2 {
+    margin-bottom: 0;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 2.5% 4%;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.bottom-cont {
+    width: 90%;
+    margin: 0 auto 40px;
+}
